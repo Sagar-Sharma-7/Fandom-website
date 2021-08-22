@@ -4,4 +4,37 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.navbar {
+  padding: 1vh 2vw;
+  border: 2px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .logo {
+  border: 2px solid #000;
+}
+
+.navbar .logo img {
+  height: 10vh;
+}
+
+.navbar nav {
+  border: 2px solid green;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
 /*# sourceMappingURL=style.css.map */
