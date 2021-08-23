@@ -23,6 +23,8 @@ body {
   background-image: url(../img/bg1.png);
   background-repeat: no-repeat;
   background-position: right;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -70,6 +72,7 @@ body {
 
 .container {
   width: 100vw;
+  margin-top: 20vh;
   height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,8 +88,15 @@ body {
 }
 
 .container .left span {
-  color: #ffe93e;
+  color: green;
   font-weight: 900;
+  cursor: pointer;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.container .left span:hover {
+  color: #ffe93e;
 }
 
 .container .right {
