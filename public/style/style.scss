@@ -10,7 +10,7 @@ body{
     display:flex;
     justify-content: space-between;
     flex-direction: column;
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg1.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -23,7 +23,7 @@ body{
     justify-content: space-between;
     .logo{
         img{
-            height: 10vh;
+            height: 14vh;
         }
     }
     nav{
@@ -50,15 +50,13 @@ body{
     width: 100vw;
     height: 60vh;
     display: flex;
-    border: 2px solid green;
     .left{
         border: 2px solid blues;
     }
     .right{
-        border: 2px solid black;
-        width: 80vw;
+        width: 110vw;
         img{
-            height: 50vh;
+            height: 60vh;
         }
     }
 }

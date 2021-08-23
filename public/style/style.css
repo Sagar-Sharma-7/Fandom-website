@@ -18,7 +18,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../img/bg.png);
+  background-image: url(../img/bg1.png);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .navbar .logo img {
-  height: 10vh;
+  height: 14vh;
 }
 
 .navbar nav {
@@ -71,7 +71,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 2px solid green;
 }
 
 .container .left {
@@ -79,11 +78,10 @@ body {
 }
 
 .container .right {
-  border: 2px solid black;
-  width: 80vw;
+  width: 110vw;
 }
 
 .container .right img {
-  height: 50vh;
+  height: 60vh;
 }
 /*# sourceMappingURL=style.css.map */
