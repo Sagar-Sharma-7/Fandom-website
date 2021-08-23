@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu:wght@500&display=swap');
 
 $yellow: #ffe93e;
+$font1: 'Patrick Hand', cursive;
+$font2: 'Ubuntu', sans-serif;
+
 
 *{
     margin: 0;
@@ -24,6 +29,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: $font1;
     .logo{
         img{
             height: 14vh;
@@ -53,12 +59,15 @@ body{
     width: 100vw;
     height: 60vh;
     display: flex;
+    font-family: $font1;
     .left{
-        font-size: 4vw;
+        font-size: 5vw;
         width: 90vw;
-        padding: 6vh 9vw;
+        padding: 6vh 5vw;
+        font-weight: 700;
         span{
             color: $yellow;
+            font-weight: 900;
         }
     }
     .right{

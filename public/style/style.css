@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +36,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-family: "Patrick Hand", cursive;
 }
 
 .navbar .logo img {
@@ -71,16 +74,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: "Patrick Hand", cursive;
 }
 
 .container .left {
-  font-size: 4vw;
+  font-size: 5vw;
   width: 90vw;
-  padding: 6vh 9vw;
+  padding: 6vh 5vw;
+  font-weight: 700;
 }
 
 .container .left span {
   color: #ffe93e;
+  font-weight: 900;
 }
 
 .container .right {
