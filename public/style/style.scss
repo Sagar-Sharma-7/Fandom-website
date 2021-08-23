@@ -5,6 +5,10 @@ $yellow: #ffe93e;
 $font1: 'Patrick Hand', cursive;
 $font2: 'Ubuntu', sans-serif;
 
+@mixin flex() {
+    display: flex;
+}
+
 
 *{
     margin: 0;
@@ -13,11 +17,6 @@ $font2: 'Ubuntu', sans-serif;
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
-    display:flex;
-    justify-content: space-between;
-    flex-direction: column;
     background-image: url(../img/bg1.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -27,8 +26,8 @@ body{
 
 // navbar
 .navbar{
+    @include flex();
     padding: 3vh;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: $font1;
@@ -61,7 +60,7 @@ body{
     width: 100vw;
     margin-top: 20vh;
     height: 60vh;
-    display: flex;
+    @include flex();
     font-family: $font1;
     .left{
         font-size: 5vw;
@@ -83,5 +82,19 @@ body{
         img{
             height: 60vh;
         }
+    }
+}
+
+// characters
+.characters{
+    margin-top: 10vh;
+    .left_char{
+        img{
+            height: 90vh;
+        }
+    }
+    .right_char{
+        width: 90vw;
+        border: 2px solid green
     }
 }
