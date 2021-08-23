@@ -5,6 +5,12 @@
           box-sizing: border-box;
 }
 
+body {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .navbar {
   padding: 2vh 1vw;
   margin-top: 1vh;
@@ -46,5 +52,9 @@
 
 .navbar nav a:hover {
   background-color: #ffe93e;
+}
+
+.container {
+  border: 2px solid green;
 }
 /*# sourceMappingURL=style.css.map */

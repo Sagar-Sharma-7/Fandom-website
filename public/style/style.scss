@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 // navbar
 .navbar{
     padding: 2vh 1vw;
@@ -33,5 +39,9 @@
             }
         }
     }
+}
 
+// content
+.container{
+    border: 2px solid green;
 }
