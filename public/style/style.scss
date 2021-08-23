@@ -5,9 +5,6 @@ $yellow: #ffe93e;
 $font1: 'Patrick Hand', cursive;
 $font2: 'Ubuntu', sans-serif;
 
-@mixin flex() {
-    display: flex;
-}
 
 
 *{
@@ -26,7 +23,7 @@ body{
 
 // navbar
 .navbar{
-    @include flex();
+    display: flex;
     padding: 3vh;
     align-items: center;
     justify-content: space-between;
@@ -60,22 +57,13 @@ body{
     width: 100vw;
     margin-top: 20vh;
     height: 60vh;
-    @include flex();
+    display: flex;
     font-family: $font1;
     .left{
         font-size: 5vw;
         width: 90vw;
         padding: 6vh 5vw;
         font-weight: 700;
-        span{
-            color: green;
-            font-weight: 900;
-            cursor: pointer;
-            transition: 500ms;
-            &:hover{
-                color: $yellow;
-            }
-        }
     }
     .right{
         width: 110vw;
@@ -85,16 +73,60 @@ body{
     }
 }
 
+
+span{
+    color: green;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 500ms;
+    &:hover{
+        color: $yellow;
+    }
+}
+
 // characters
 .characters{
     margin-top: 10vh;
+    display: flex;
     .left_char{
+        width: 50vw;
         img{
             height: 90vh;
         }
     }
     .right_char{
-        width: 90vw;
-        border: 2px solid green
+        font-size: 6vw;
+        margin-top: 20vh;
+        font-family: $font1;
+        font-weight: 700;
     }
 }
+
+
+
+
+// scroll bar
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $yellow; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  /* Up and Down Button*/
+  ::-webkit-scrollbar-button{
+      background-color: #000;
+  }

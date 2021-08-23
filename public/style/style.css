@@ -75,18 +75,6 @@ body {
   font-weight: 700;
 }
 
-.container .left span {
-  color: green;
-  font-weight: 900;
-  cursor: pointer;
-  -webkit-transition: 500ms;
-  transition: 500ms;
-}
-
-.container .left span:hover {
-  color: #ffe93e;
-}
-
 .container .right {
   width: 110vw;
 }
@@ -95,8 +83,27 @@ body {
   height: 60vh;
 }
 
+span {
+  color: green;
+  font-weight: 900;
+  cursor: pointer;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+span:hover {
+  color: #ffe93e;
+}
+
 .characters {
   margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.characters .left_char {
+  width: 50vw;
 }
 
 .characters .left_char img {
@@ -104,7 +111,34 @@ body {
 }
 
 .characters .right_char {
-  width: 90vw;
-  border: 2px solid green;
+  font-size: 6vw;
+  margin-top: 20vh;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffe93e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Up and Down Button*/
+::-webkit-scrollbar-button {
+  background-color: #000;
 }
 /*# sourceMappingURL=style.css.map */
