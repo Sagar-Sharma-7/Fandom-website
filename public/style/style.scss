@@ -1,3 +1,6 @@
+
+$yellow: #ffe93e;
+
 *{
     margin: 0;
     padding: 0;
@@ -37,9 +40,9 @@ body{
             padding: 2vh 2vw;
             border-radius: 15px;
             transition: 500ms;
-            border-bottom: 2px solid #ffe93e;
+            border-bottom: 2px solid $yellow;
             &:hover{
-                background-color: #ffe93e;
+                background-color: $yellow;
             }
         }
     }
@@ -51,7 +54,12 @@ body{
     height: 60vh;
     display: flex;
     .left{
-        border: 2px solid blues;
+        font-size: 4vw;
+        width: 90vw;
+        padding: 6vh 9vw;
+        span{
+            color: $yellow;
+        }
     }
     .right{
         width: 110vw;

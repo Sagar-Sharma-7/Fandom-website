@@ -74,7 +74,13 @@ body {
 }
 
 .container .left {
-  border: 2px solid blues;
+  font-size: 4vw;
+  width: 90vw;
+  padding: 6vh 9vw;
+}
+
+.container .left span {
+  color: #ffe93e;
 }
 
 .container .right {
