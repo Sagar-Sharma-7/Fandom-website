@@ -29,7 +29,7 @@ body {
 }
 
 .navbar .logo img {
-  height: 14vh;
+  height: 10vw;
 }
 
 .navbar nav {
@@ -59,8 +59,7 @@ body {
 
 .container {
   width: 100vw;
-  margin-top: 20vh;
-  height: 60vh;
+  margin-top: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +77,7 @@ body {
 }
 
 .container .right img {
-  height: 60vh;
+  width: 48vw;
 }
 
 span {
@@ -106,7 +105,7 @@ span:hover {
 }
 
 .characters .left_char img {
-  height: 90vh;
+  height: 50vw;
 }
 
 .characters .right_char {
@@ -122,7 +121,8 @@ span:hover {
 }
 
 .shop .left_shop {
-  font-size: 5vw;
+  margin-top: 10vh;
+  font-size: 6vw;
   width: 90vw;
   padding: 6vh 5vw;
   font-weight: 700;
@@ -146,6 +146,10 @@ span:hover {
 .shop .left_shop #buy_btn:hover {
   background-color: #000;
   color: #ffe93e;
+}
+
+.shop .right_shop img {
+  width: 55vw;
 }
 
 /* width */
@@ -198,5 +202,32 @@ span:hover {
 #button.show {
   opacity: 1;
   visibility: visible;
+}
+
+@media only all and (max-width: 1000px) {
+  .navbar nav {
+    width: 60vw;
+  }
+  .characters .right_char {
+    padding-left: 10vw;
+  }
+}
+
+@media only all and (max-width: 850px) {
+  .navbar nav a {
+    font-size: 18px;
+  }
+  .container .left {
+    font-size: 7vw;
+  }
+  .container .right img {
+    width: 55vw;
+  }
+  .characters .right {
+    font-size: 8vw;
+  }
+  .shop .left_shop {
+    font-size: 6vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
