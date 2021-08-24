@@ -18,7 +18,7 @@
         <nav>
             <a href="#">Home</a>
             <a href="#">Characters</a>
-            <a href="#">Contact Us</a>
+            <a href="#contact">Contact Us</a>
             <a href="#">Shop</a>
         </nav>
     </div>
@@ -60,10 +60,12 @@
         </div>
     </div>
 
+    <!-- footer -->
     <footer>
 
         <div class="github_link">
             <p>Our Github</p>
+            <img src="./public/img/github.png" alt="github" class="github_img">
             <div class="pranjal">
                 <a href="https://github.com/Pranjal60" target="_blank">Pranjal60</a>
             </div>
@@ -74,8 +76,6 @@
 
         <div class="contact-info">
             <p>Contact Info</p>
-            <br>
-            <sup>Our Address</sup>
             <table>
                 <tr>
                     <th>PHONE</th>
@@ -100,12 +100,17 @@
         </div>
 
         <div class="contact-us">
+            <a name="contact"></a>
             <p> Contact Us</p>
-            <input type="email" name="mail" id="mail" placeholder="Email"><br>
-            <textarea name="message" id="message"  rows="4" placeholder="Message"></textarea>
+            <input type="email" name="mail" id="mail" placeholder="Email" class="field"><br>
+            <textarea name="message" id="message"  rows="4" placeholder="Message" class="field"></textarea><br>
+            <div>
+                <button id="send_btn">Send</button>
             </div>
-
+        </div>
     </footer>
+    <hr>
+
 
     <a id="button"><i class="fas fa-arrow-up"></i></a>
 
