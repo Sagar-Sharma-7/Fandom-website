@@ -230,4 +230,22 @@ span:hover {
     font-size: 6vw;
   }
 }
+
+@media only all and (max-width: 600px) {
+  body {
+    background-attachment: scroll;
+  }
+  .navbar nav {
+    width: 65vw;
+  }
+  .navbar nav a {
+    font-size: 12px;
+  }
+  .navbar .logo img {
+    height: 8vw;
+  }
+  .characters .right {
+    margin-top: 8vh;
+  }
+}
 /*# sourceMappingURL=style.css.map */

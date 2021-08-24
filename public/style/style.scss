@@ -231,3 +231,27 @@ span{
         }
     }
 }
+
+@media only all and (max-width: 600px) {
+    body{
+        background-attachment: scroll ;
+    }
+    .navbar{
+        nav{
+            width: 65vw;
+            a{
+                font-size: 12px;
+            }
+        }
+        .logo{
+            img{
+                height: 8vw;
+            }
+        }
+    }
+    .characters{
+        .right{
+            margin-top: 8vh;
+        }
+    }
+}
