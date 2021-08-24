@@ -161,6 +161,22 @@ span:hover {
   width: 55vw;
 }
 
+footer {
+  border: 3px solid green;
+  color: #fff;
+  background-color: #000;
+  display: -ms-grid;
+  display: grid;
+  width: 100vw;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+footer div {
+  border: 2px solid orange;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -228,6 +244,7 @@ span:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    position: relative;
   }
   .navbar nav {
     width: 100vw;
@@ -249,6 +266,9 @@ span:hover {
 @media only all and (max-width: 600px) {
   body {
     background-attachment: scroll;
+  }
+  .navbar {
+    position: relative;
   }
   .navbar .logo img {
     height: 8vw;
