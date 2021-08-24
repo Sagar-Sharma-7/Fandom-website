@@ -8,28 +8,38 @@
 }
 
 body {
-  background-image: url(../img/bg1.png);
-  background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
   overflow-x: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#444444));
+  background: linear-gradient(#EEEEEE, #444444);
 }
 
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 3vh;
+  padding: 1vh 2vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0 0px 10px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 0px 10px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 .navbar .logo img {
-  height: 10vw;
+  height: 6vw;
 }
 
 .navbar nav {
@@ -47,10 +57,9 @@ body {
   color: #272727;
   font-size: 20px;
   padding: 2vh 2vw;
-  border-radius: 15px;
+  border-radius: 5px;
   -webkit-transition: 500ms;
   transition: 500ms;
-  border-bottom: 2px solid #ffe93e;
 }
 
 .navbar nav a:hover {
@@ -214,8 +223,14 @@ span:hover {
 }
 
 @media only all and (max-width: 850px) {
-  .navbar nav a {
-    font-size: 18px;
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar nav {
+    width: 100vw;
   }
   .container .left {
     font-size: 7vw;
@@ -234,12 +249,6 @@ span:hover {
 @media only all and (max-width: 600px) {
   body {
     background-attachment: scroll;
-  }
-  .navbar nav {
-    width: 65vw;
-  }
-  .navbar nav a {
-    font-size: 12px;
   }
   .navbar .logo img {
     height: 8vw;
