@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Patrick Hand", cursive;
 }
 
 body {
@@ -26,7 +26,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "Patrick Hand", cursive;
 }
 
 .navbar .logo img {
@@ -65,7 +64,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Patrick Hand", cursive;
 }
 
 .container .left {
@@ -114,7 +112,6 @@ span:hover {
 .characters .right_char {
   font-size: 6vw;
   margin-top: 20vh;
-  font-family: "Patrick Hand", cursive;
   font-weight: 700;
 }
 
@@ -125,8 +122,30 @@ span:hover {
 }
 
 .shop .left_shop {
-  width: 50vw;
-  border: 2px solid green;
+  font-size: 5vw;
+  width: 90vw;
+  padding: 6vh 5vw;
+  font-weight: 700;
+}
+
+.shop .left_shop #buy_btn {
+  background-color: #ffe93e;
+  font-size: 3vw;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 1vh 2vw;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.shop .left_shop #buy_btn:hover {
+  background-color: #000;
+  color: #ffe93e;
 }
 
 /* width */
