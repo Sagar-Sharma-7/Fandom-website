@@ -21,6 +21,7 @@ input[type="search"] {
   margin: 10px;
   font-size: 3vh;
   padding: 10px;
+  outline: none;
 }
 
 .shop-main {
