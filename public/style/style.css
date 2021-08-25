@@ -261,16 +261,6 @@ footer .contact-us div button:hover {
 }
 
 @media only all and (max-width: 850px) {
-  .navbar {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: relative;
-  }
-  .navbar nav {
-    width: 100vw;
-  }
   .container .left {
     font-size: 7vw;
   }
@@ -302,12 +292,6 @@ footer .contact-us div button:hover {
 @media only all and (max-width: 600px) {
   body {
     background-attachment: scroll;
-  }
-  .navbar {
-    position: relative;
-  }
-  .navbar .logo img {
-    height: 8vw;
   }
   .characters .right {
     margin-top: 8vh;

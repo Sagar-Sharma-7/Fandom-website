@@ -249,13 +249,6 @@ footer{
 }
 
 @media only all and (max-width: 850px) {
-    .navbar{
-        flex-direction: column;
-        position: relative;
-        nav{
-            width: 100vw;
-        }
-        }
         .container{
             .left{
                 font-size: 7vw;
@@ -292,14 +285,6 @@ footer{
 @media only all and (max-width: 600px) {
     body{
         background-attachment: scroll ;
-    }
-    .navbar{
-        position: relative;
-        .logo{
-            img{
-                height: 8vw;
-            }
-        }
     }
     .characters{
         .right{
