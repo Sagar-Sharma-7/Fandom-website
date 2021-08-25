@@ -1,0 +1,113 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+body {
+  font-family: "Handlee", cursive;
+}
+
+/* SearchBar
+---------------------------- */
+
+input[type="search"] {
+  width: 40%;
+  height: 8vh;
+  float: right;
+  margin: 10px;
+  font-size: 3vh;
+  padding: 10px;
+}
+
+.shop-main {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  background-image: url(../Style/Images/brushed-alum.png);
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3vw;
+  grid-row-gap: 3vh;
+  margin: 15px auto 50px;
+}
+.card {
+  width: 25vw;
+  height: 600px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 1px rgba(43, 42, 42, 0.596);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.get-shop {
+  width: 21vw;
+  align-self: center;
+}
+
+button {
+  background-color: #ffe93e;
+  font-size: 3vw;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 1vh 2vw;
+  -webkit-box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%),
+    0 6px 20px 0 rgb(0 0 0 / 19%);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  margin: 15px 0 0 0;
+}
+button:hover {
+  background-color: #000;
+  color: #ffe93e;
+}
+@media (max-width: 1250px) {
+  .section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    width: 40vw;
+  }
+
+  .get-shop {
+    width: 36vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .section {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding: 20px;
+    justify-content: center;
+  }
+  .card {
+    width: 80vw;
+  }
+
+  .get-shop {
+    width: 76vw;
+  }
+  input[type="search"] {
+    width: 97vw;
+    float: none;
+  }
+}
