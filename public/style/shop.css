@@ -29,7 +29,7 @@ input[type="search"] {
   width: 90%;
   margin: 0 auto;
   background-color: #fff;
-  background-image: url(../Style/Images/brushed-alum.png);
+  background-image: url(../public/img/brushed-alum.png);
 }
 
 .section {
