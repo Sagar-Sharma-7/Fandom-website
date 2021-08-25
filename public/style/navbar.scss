@@ -1,0 +1,70 @@
+$yellow: #ffe93e;
+
+// navbar
+.navbar{
+    display: flex;
+    padding: 1vh 2vw;
+    align-items: center;
+    justify-content: space-between;  
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0px 10px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    .logo{
+        img{
+            height: 6vw;
+        }
+    }
+    nav{
+        width: 40vw;
+        display: flex;
+        justify-content: space-evenly;
+        
+        a{
+            text-decoration: none;
+            color: rgb(39, 39, 39);
+            font-size: 20px;
+            padding: 2vh 2vw;
+            border-radius: 5px;
+            transition: 500ms;
+            &:hover{
+                background-color: $yellow;
+            }
+        }
+    }
+}
+
+// responsive
+@media only all and (max-width: 1000px){
+    .navbar{
+        nav{
+            width: 60vw;
+        }
+    }
+}
+
+@media only all and (max-width: 850px){
+    .navbar{
+        flex-direction: column;
+        position: relative;
+        nav{
+            width: 100vw;
+        }
+        }
+}
+
+@media only all and (max-width: 600px){
+    .navbar{
+        position: relative;
+        .logo{
+            img{
+                height: 8vw;
+            }
+        }
+    }
+}
+

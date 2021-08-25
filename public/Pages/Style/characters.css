@@ -1,0 +1,77 @@
+.char-main {
+  background-color: yellow;
+}
+.characters-main {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(../Style/Images/brushed-alum.png);
+  background-color: #fff;
+}
+.sub-nav-link {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3vw;
+  grid-row-gap: 3vh;
+  margin: 15px auto 50px;
+}
+
+.card {
+  width: 25vw;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 01px rgba(43, 42, 42, 0.596);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px 10px;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+hr {
+  width: 20%;
+  background: blacks;
+}
+
+.im-logo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border: solid 5px white;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.63);
+  align-self: center;
+}
+
+@media (max-width: 1250px) {
+  .sub-nav-link {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card{
+    width: 40vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .sub-nav-link {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding: 20px;
+    justify-content: center;
+  }
+  .card{
+    width: 80vw;
+  }
+}
