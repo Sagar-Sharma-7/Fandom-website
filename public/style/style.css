@@ -121,7 +121,6 @@ footer {
   display: -ms-grid;
   display: grid;
   width: 100vw;
-  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
 }
 
@@ -236,8 +235,10 @@ footer .contact-us div button:hover {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  -webkit-transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+  transition: background-color .3s, 
+ opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
@@ -274,7 +275,6 @@ footer .contact-us div button:hover {
     font-size: 6vw;
   }
   footer {
-    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
   footer .contact-info {
@@ -297,7 +297,6 @@ footer .contact-us div button:hover {
     margin-top: 8vh;
   }
   footer {
-    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
   footer .contact-info {
