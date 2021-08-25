@@ -120,4 +120,7 @@ button:hover {
   .get-shop {
     width: 75vw;
   }
+  button{
+    font-size: 4vw;
+  }
 }
