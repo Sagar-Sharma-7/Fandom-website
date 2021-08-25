@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-.char-main {
-  background-color: yellow;
+
+body{
+  background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#444444));
+  background: linear-gradient(#EEEEEE, #444444);
 }
+
 .characters-main {
   padding: 0 15px;
   display: flex;
@@ -14,8 +17,8 @@
   justify-content: center;
   width: 90%;
   margin: 0 auto;
-  background-image: url(../Style/Images/brushed-alum.png);
   background-color: #fff;
+  background-image: url(../img/brushed-alum.png);
 }
 .sub-nav-link {
   display: grid;
