@@ -46,6 +46,10 @@ body{
   margin: 10px 0;
 }
 
+progress{
+  height: 20px;
+}
+
 hr {
   width: 20%;
   background: blacks;
