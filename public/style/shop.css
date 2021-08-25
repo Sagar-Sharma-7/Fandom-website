@@ -107,10 +107,16 @@ button:hover {
   }
 
   .get-shop {
-    width: 74vw;
+    width: 55vw;
   }
   input[type="search"] {
     width: 95vw;
     float: none;
+  }
+}
+
+@media (max-width: 900px){
+  .get-shop {
+    width: 75vw;
   }
 }
