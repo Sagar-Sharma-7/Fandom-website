@@ -6,6 +6,9 @@ body,
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 body {
   font-family: "Handlee", cursive;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#000000));
+  background: linear-gradient(#EEEEEE, #000000);
+  overflow-x: hidden;
 }
 
 /* SearchBar
