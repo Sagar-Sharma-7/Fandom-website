@@ -8,6 +8,7 @@
     <title>Fandom-Pokemon|Shop</title>
     <link rel="stylesheet" href="../style/shop.css">
     <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="stylesheet" href="../style/footer.css">
 </head>
 
 <body>
@@ -18,9 +19,9 @@
         </div>
         <nav>
             <a href="../../index.html">Home</a>
-            <a href="./public/Pages/Characters.html">Characters</a>
+            <a href="../Pages/Characters.html">Characters</a>
             <a href="#contact">Contact Us</a>
-            <a href="#">Shop</a>
+            <a href="../Pages/shop.html">Shop</a>
         </nav>
     </div>
 
@@ -33,7 +34,7 @@
     <div class="shop-main">
         <div class="section">
             <div class="card">
-                <img src="../Pages/Style/Images/pok-shop1.jpg" alt="Shop Image" class="get-shop">
+                <img src="../img/pok-shop1.jpg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>Pokeballs</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -41,7 +42,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="../Pages/Style/Images/ghost-toy.jpg" alt="Shop Image" class="get-shop">
+                <img src="../img/ghost-toy.jpg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>KeyChain</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -49,7 +50,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="../Pages/Style/Images/t-shit.jpeg" alt="Shop Image" class="get-shop">
+                <img src="../img/t-shit.jpeg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>T-Shirt</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -64,7 +65,7 @@
 
         <div class="section">
             <div class="card">
-                <img src="../Pages/Style/Images/keychain.jpg" alt="Shop Image" class="get-shop">
+                <img src="../img/keychain.jpg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>KayChain</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -72,7 +73,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="../Pages/Style/Images/pika.jpg" alt="Shop Image" class="get-shop">
+                <img src="../img/pika.jpg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>Useless Machine</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -80,7 +81,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="../Pages/Style/Images/case.jpg" alt="Shop Image" class="get-shop">
+                <img src="../img/case.jpg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>Mobile Covers</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -95,7 +96,7 @@
 
         <div class="section">
             <div class="card">
-                <img src="../Pages/Style/Images/pika-bag.jpg" alt="Shop Image" class="get-shop">
+                <img src="../img/pika-bag.jpg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>Product</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -103,7 +104,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="../Pages/Style/Images/boy.jpg" alt="Shop Image" class="get-shop">
+                <img src="../img/boy.jpg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>Product</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -111,7 +112,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="../Pages/Style/Images/couch.jpg" alt="Shop Image" class="get-shop">
+                <img src="../img/couch.jpg" alt="Shop Image" class="get-shop">
                 <div class="card-content">
                     <h3>Product</h3>
                     <p>Product details... <br>Some more shit...</p>
@@ -121,9 +122,63 @@
         </div>
     </div>
 
-    <!-- Footer goes here ... -->
+    
+    <!-- ***********************footer******************************** -->
+    <footer>
 
-    <!-- Also here -->
+        <div class="github_link">
+            <p>Our Github</p>
+            <img src="./public/img/github.png" alt="github" class="github_img">
+            <div class="pranjal">
+                <a href="https://github.com/Pranjal60" target="_blank">Pranjal60</a>
+            </div>
+            <div class="sagar">
+                <a href="https://github.com/Sagar-Sharma-7" target="_blank">Sagar-Sharma-7</a>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <p>Contact Info</p>
+            <table>
+                <tr>
+                    <th>PHONE</th>
+                    <td><i class="fa fa-phone" aria-hidden="true"></i</td>
+                    <td>(000) 000 000 000</td>
+                </tr>
+                <tr>
+                    <th>MAIL</th>
+                    <td><i class="fas fa-envelope"></i></td>
+                    <td>example@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>LOCATION</th>
+                    <td><i class="fas fa-map-marker-alt"></i></td>
+                    <td>
+                        Earth 00/0, <br>
+                        World, <br>
+                        XXXXX
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="contact-us">
+            <a name="contact"></a>
+            <p> Contact Us</p>
+            <input type="email" name="mail" id="mail" placeholder="Email" class="field"><br>
+            <textarea name="message" id="message"  rows="4" placeholder="Message" class="field"></textarea><br>
+            <div>
+                <button id="send_btn">Send</button>
+            </div>
+        </div>
+    </footer>
+    <hr>
+
+
+    <a id="button"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./public/js/main.js"></script>
 </body>
 
 </html>
