@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 body,
 * {
   margin: 0;
   padding: 0;
 }
-@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 body {
   font-family: "Handlee", cursive;
   background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#000000));
@@ -75,6 +75,7 @@ button {
   transition: 200ms;
   margin: 15px 0 0 0;
 }
+
 button:hover {
   background-color: #000;
   color: #ffe93e;
