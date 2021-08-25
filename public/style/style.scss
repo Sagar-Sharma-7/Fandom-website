@@ -112,7 +112,6 @@ span{
 .shop{
     display: flex;
     .left_shop{
-        margin-top: 10vh;
         font-size: 6vw;
         width: 90vw;
         padding: 6vh 5vw;
@@ -277,7 +276,6 @@ footer{
 }
 
 
-
 // responsive
 @media only all and (max-width: 1000px) {
     .navbar{
@@ -333,7 +331,6 @@ footer{
         }
     }
 
-
 @media only all and (max-width: 600px) {
     body{
         background-attachment: scroll ;
@@ -363,5 +360,4 @@ footer{
         grid-column: 1 / span 1;
     }
     }
-
 }
