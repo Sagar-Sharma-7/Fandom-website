@@ -7,6 +7,7 @@
 ## Here are some screen shots
 <p align="center">
   <img src="public/img/result.png" title="result">
+  <img src="public/img/result2.png" title="result">
 </p>
 
 ----------
