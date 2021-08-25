@@ -5,8 +5,9 @@
 }
 
 body{
-  background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#444444));
-  background: linear-gradient(#EEEEEE, #444444);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#000000));
+  background: linear-gradient(#EEEEEE, #000000);
+  overflow-x: hidden;
 }
 
 .characters-main {

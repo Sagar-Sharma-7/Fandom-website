@@ -1,0 +1,124 @@
+footer {
+  border-top: 2px solid #ffe93e;
+  padding: 3vh 2vw;
+  color: #fff;
+  background-color: #000;
+  display: -ms-grid;
+  display: grid;
+  width: 100vw;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+footer div p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 2rem;
+  text-align: center;
+}
+
+footer .github_link {
+  text-align: center;
+}
+
+footer .github_link img {
+  width: 60px;
+  margin-top: 10vh;
+}
+
+footer .github_link div a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .github_link div a:hover {
+  color: #ffe93e;
+}
+
+footer .contact-info {
+  padding: 1vh 3vw;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+footer .contact-info table, footer .contact-info th, footer .contact-info td {
+  width: 100%;
+  vertical-align: top;
+  padding-right: 20px;
+  margin-top: 10vh;
+}
+
+footer .contact-info th {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+footer .contact-us {
+  text-align: center;
+}
+
+footer .contact-us #mail {
+  margin-top: 8vh;
+  height: 2rem;
+}
+
+footer .contact-us .field {
+  width: 70%;
+  margin: 1vh 0vw;
+  outline: none;
+  padding: 1.5vh 1vw;
+}
+
+footer .contact-us div {
+  text-align: right;
+  width: 85%;
+}
+
+footer .contact-us div button {
+  width: 40%;
+  font-size: 15px;
+  padding: 1vh 0vw;
+  background-color: #ffe93e;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer .contact-us div button:hover {
+  color: #fff;
+}
+
+@media only all and (max-width: 850px) {
+  footer {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  footer .contact-info {
+    border: none;
+  }
+  footer .contact-us {
+    margin-top: 5vh;
+    border-top: 1px solid white;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+  }
+}
+
+@media only all and (max-width: 600px) {
+  footer {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  footer .contact-info {
+    border-top: 1px solid white;
+    margin-top: 5vh;
+  }
+  footer .contact-us {
+    margin-top: 5vh;
+    border-top: 1px solid white;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / span 1;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

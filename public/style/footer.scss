@@ -1,0 +1,108 @@
+$yellow: #ffe93e;
+// footer
+footer{
+    border-top: 2px solid $yellow;
+    padding: 3vh 2vw;
+    color :#fff;
+    background-color: #000;
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(3, 1fr);
+    div{
+
+        p{
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .github_link{
+    text-align: center;
+        img{
+            width: 60px;
+            margin-top: 10vh;
+        }
+        div{
+            a{
+                color: #fff;
+                text-decoration: none;
+                &:hover{
+                    color: $yellow;
+                }
+            }
+        }
+    }
+    .contact-info{
+        padding: 1vh 3vw;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        table, th,  td{
+            width: 100%;
+            vertical-align: top;
+            padding-right: 20px;
+            margin-top: 10vh;
+        }
+        th{
+            color: rgba(255, 255, 255, 0.4);
+        }
+    }
+    .contact-us{
+        text-align: center;
+        #mail{
+            margin-top: 8vh;
+            height: 2rem;
+        }
+        .field{
+            width: 70%;
+            margin: 1vh 0vw;
+            outline: none;
+            padding: 1.5vh 1vw;
+        }
+        div{
+            text-align: right;
+            width: 85%;
+            button{
+                width: 40%;
+                font-size: 15px;
+                padding: 1vh 0vw;
+                background-color: $yellow;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 850px){
+    footer{
+        grid-template-columns: repeat(2, 1fr);
+        .contact-info{
+            border: none;
+        }
+        .contact-us{
+            margin-top: 5vh;
+            border-top: 1px solid white;
+            grid-column: 1 / span 2;
+        }
+    }
+}
+
+@media only all and (max-width: 600px){
+    footer{
+        grid-template-columns: repeat(1, 1fr);
+        .contact-info{
+            border-top: 1px solid white;
+            margin-top: 5vh;
+        }
+        .contact-us{
+         margin-top: 5vh;
+         border-top: 1px solid white;
+         grid-column: 1 / span 1;
+     }
+     }
+}
