@@ -40,7 +40,7 @@ body {
   width: 48vw;
 }
 
-span {
+.first-page-text-link {
   color: green;
   font-weight: 900;
   cursor: pointer;
@@ -48,7 +48,7 @@ span {
   transition: 500ms;
 }
 
-span:hover {
+.first-page-text-link:hover {
   color: #ffe93e;
 }
 
