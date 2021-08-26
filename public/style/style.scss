@@ -46,6 +46,7 @@ body{
     font-weight: 900;
     cursor: pointer;
     transition: 500ms;
+    text-decoration: none;
     &:hover{
         color: $yellow;
     }

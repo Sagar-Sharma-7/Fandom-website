@@ -46,6 +46,7 @@ body {
   cursor: pointer;
   -webkit-transition: 500ms;
   transition: 500ms;
+  text-decoration: none;
 }
 
 .first-page-text-link:hover {
