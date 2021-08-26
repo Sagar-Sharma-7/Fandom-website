@@ -40,14 +40,15 @@ body {
   width: 48vw;
 }
 
-span {
+.first-page-text-link {
   color: green;
   font-weight: 900;
   cursor: pointer;
   -webkit-transition: 500ms;
   transition: 500ms;
 }
-span:hover {
+
+.first-page-text-link:hover {
   color: #ffe93e;
 }
 
@@ -144,10 +145,8 @@ span:hover {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  -webkit-transition: background-color .3s, 
- opacity .5s, visibility .5s;
-  transition: background-color .3s, 
- opacity .5s, visibility .5s;
+  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
