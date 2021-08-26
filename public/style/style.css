@@ -40,16 +40,14 @@ body {
   width: 48vw;
 }
 
-.first-page-text-link {
-  text-decoration:none;
+span {
   color: green;
   font-weight: 900;
   cursor: pointer;
   -webkit-transition: 500ms;
   transition: 500ms;
 }
-
-.first-page-text-link:hover {
+span:hover {
   color: #ffe93e;
 }
 
