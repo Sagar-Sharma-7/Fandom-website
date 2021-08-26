@@ -41,6 +41,7 @@ body {
 }
 
 .first-page-text-link {
+  text-decoration:none;
   color: green;
   font-weight: 900;
   cursor: pointer;
